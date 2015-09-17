@@ -1,5 +1,5 @@
 
-https://class.coursera.org/principlescomputing1-004/wiki/view?page=2048
+
 Overview
 
 2048 is a simple grid-based numbers game. The rules of the game are described here.
@@ -51,13 +51,10 @@ Use your merge function to merge the tile values in this temporary list.
 Iterate over the entries in the row or column again and store the merged tile values back into the grid
 To illustrate this process, consider updating the state of the game via the method call move(UP) in the configuration shown below.
 
-
-
 Following our outline above, we retrieve the list of initial tiles [(0, 0), (0, 1), (0, 2), (0, 3)] for the top row of the grid and use the direction (1, 0) associated with UP to iterate over the grid indices for each column. For the second column, these indices are [(0, 1), (1, 1), (2, 1), (3, 1)]. Using these indices, we can create a temporary list [2, 0, 2, 2] that holds the tile values in this column, apply merge to compute the merged list [4, 2, 0, 0], and finally copy the new merged tile values back into the grid. This sequence of operations yields the grid shown below.
-
-
 
 If you have done this correctly, a single call to the move method should slide all of the tiles in the given direction. All that remains is that you must determine if any tiles have moved. You can easily do this when you put the line back into the grid. For each element, check if it has changed and keep track of whether any tiles have changed. If so, you should add a new tile to the grid, by calling your new_tile method. Now, you are ready to run the GUI and play 2048!
 
 Note that you have not written any logic at this point to determine whether the user has "won" or "lost" the game. This is not required for this assignment, but you can think about how to do so and add it if you would like.
 
+https://class.coursera.org/principlescomputing1-004/wiki/view?page=2048
