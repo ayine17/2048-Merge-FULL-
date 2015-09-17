@@ -1,4 +1,5 @@
 
+https://class.coursera.org/principlescomputing1-004/wiki/view?page=2048
 Overview
 
 2048 is a simple grid-based numbers game. The rules of the game are described here.
